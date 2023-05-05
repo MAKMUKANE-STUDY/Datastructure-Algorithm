@@ -103,3 +103,12 @@ Datastructure-Algorithm(repo)
 ### PR의 목적
 
 제출 확인과 피드백.
+
+---
+
+### reference
+
+- [HongikB612](https://github.com/HongikB612)/**[algorithm-study](https://github.com/HongikB612/algorithm-study)**
+- [GDSC-Hongik](https://github.com/GDSC-Hongik)/**[Effective-Typescript](https://github.com/GDSC-Hongik/Effective-Typescript)**
+- [GDSC-Hongik](https://github.com/GDSC-Hongik)/**[GDSC-1st-Backend-Study](https://github.com/GDSC-Hongik/GDSC-1st-Backend-Study)**
+- [https://github.com/ROUTINE-STUDY/Algorithm/tree/main/Baekjoon](https://github.com/ROUTINE-STUDY/Algorithm/tree/main/Baekjoon)
