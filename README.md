@@ -46,24 +46,20 @@ Datastructure-Algorithm(repo)
     - fork해 온 repo의 default branch를 자신의 branch로 설정해두는 것을 추천한다.
     
 내 레파지토리와 연결된 로컬의 작업 환경 만들기
+0. 로컬 작업공간 만들기
+    - git init
 1. fork한 레파지토리를 로컬 컴퓨터에 clone한다.
     - git clone [내 레파지토리 주소]
 2. 연결된 원격 저장소 확인 후 upstream을 추가한다.
-    1. 터미널에 `git remote -v` 를 입력한다. 아래와 같이 뜰 것이다.
-        
-        ```jsx
-        origin "자신의 레파지토리 주소" (fetch)
-        origin "자신의 레파지토리 주소" (push)
-        ```
-        
-    2. `git remote add upstream "TECH-Solidity-Study 레파지토리 주소"` 로 upstream을 설정한다.
+    1. `git remote add origin "내 레파지토리 주소"`로 origin을 설정한다. origin은 내 레파지토리 주소를 저장한 변수이다.
+    2. `git remote add upstream "MAKMUKANE 레파지토리 주소"` 로 upstream을 설정한다. upstream은 MAKMUKANE의 레파지토리 주소를 저장한 변수이다.
     3. `git remote -v`로 upstream 추가 여부를 확인한다.
         
         ```jsx
         origin "자신의 레파지토리 주소" (fetch)
         origin "자신의 레파지토리 주소" (push)
-        upstream "TECH-Solidity-Study 레파지토리 주소" (fetch)
-        upstream "TECH-Solidity-Study 레파지토리 주소" (push)
+        upstream "MAKMUKANE 레파지토리 주소" (fetch)
+        upstream "MAKMUKANE 레파지토리 주소" (push)
         ```
         
     
