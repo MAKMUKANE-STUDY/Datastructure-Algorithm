@@ -76,7 +76,7 @@ Datastructure-Algorithm(repo)
 2. **작업 전, `git pull upstream` 으로 원격 저장소와 로컬 저장소를 동기화**시켜준다.
     - 원격 레파지토리의 변화를 로컬에 반영할 수 있다.
 3. 작업을 한다.
-4. 변경된 파일을 staging 후 commit하고, **origin**의 **자신 브랜치에** push한다
+4. 변경된 파일을 staging 후 commit한 후에, **origin**의 **자신 브랜치에** push한다
     - `git push **origin** **“자신의브랜치”**`
     
     **주의사항 : upstream에 푸시하지 않는다.**
